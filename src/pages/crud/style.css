@@ -1,0 +1,33 @@
+.crud-list{
+    list-style: none;
+    padding: 0;
+}
+
+.crud-item-text-edit{
+    margin: 0 0 0 .5rem;
+}
+
+.crud-item-label{
+    margin: 0px !important;
+    line-height: 25px;
+}
+
+.crud-item-label.done{
+    text-decoration: line-through;
+}
+
+.crud-item {
+    display: flex;
+    justify-content: normal;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: .25rem;
+}
+
+.crud-item-action {
+    margin: 0 .5rem 0 0;
+}
+
+.new-crud-item {
+    margin-bottom: .5rem;
+}
